@@ -1,0 +1,74 @@
+# Private overlay. Never publish personal card ownership, limits, or recommendations.
+40-私有/
+private/
+私人/
+個人/
+
+# Obsidian local app state and personal workspace settings.
+.obsidian/
+
+# Local secrets or credentials.
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+*.key
+*.pem
+*.p12
+*.mobileconfig
+
+# macOS / filesystem metadata.
+.DS_Store
+._*
+.Spotlight-V100/
+.Trashes/
+Icon?
+
+# Google Drive / sync conflict artifacts.
+* (Conflicted copy*)
+* (conflicted copy*)
+* conflicted copy*
+*.icloud
+
+# Editor / temporary files.
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Linux FUSE / Obsidian sync residual snapshots — may contain stale or pre-redaction content.
+.fuse_hidden*
+
+# IDE / editor settings.
+.vscode/
+.idea/
+*.iml
+*.code-workspace
+
+# Claude / Cowork session artifacts.
+outputs/
+.claude/
+.cowork/
+
+# Local export or scratch outputs.
+exports/
+export/
+tmp/
+temp/
+scratch/
+reports/private/
+reports/local/
+
+# Node / Python virtual envs (in case 自動化腳本 加入).
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS-specific.
+Thumbs.db
+desktop.ini
